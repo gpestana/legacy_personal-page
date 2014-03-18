@@ -15,13 +15,6 @@ from angular_flask import app
 def basic_pages(**kwargs):
 	return make_response(open('angular_flask/templates/index.html').read())
 
-
-@app.route('/_api/message')
-def api_message():
-	data = {'msg': 'OLA MUNDO'}
-	return jsonify(data)
-
-
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
