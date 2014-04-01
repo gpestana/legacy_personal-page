@@ -1,4 +1,4 @@
-static-blog
+personal webpage and blog
 ===========
 
-personal static webpage with blog using angularjs, bootstrap and slick.js (https://github.com/gpestana/slick.js)
+personal static webpage. blog using slick.js (https://github.com/gpestana/slick.js)
