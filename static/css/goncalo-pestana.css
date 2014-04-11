@@ -21,7 +21,18 @@ body {
 	width: 100%;
 }
 
+.img-responsive {
+	width: 100px;
+	height: 100px;
+}
 /*main sections*/
+
+#upper-div {
+	height: 10px;
+	background-color: black;
+	
+}
+
 #header {
 	background-color: #76d04b;
 	font-family: "Josefin Sans",arial,sans-serif;
@@ -95,8 +106,3 @@ footer {
 }
 
 
-
-#test {
-	height: 10px;
-	background-color: black;
-}
