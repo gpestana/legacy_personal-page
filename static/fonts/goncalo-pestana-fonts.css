@@ -10,3 +10,14 @@
   font-weight: 400;
   src: local('Karla'), local('Karla-Regular'), url(http://themes.googleusercontent.com/static/fonts/karla/v3/azR40LUJrT4HaWK28zHmVA.woff) format('woff');
 }
+
+@font-face {
+    font-family: 'socicon';
+    src: url('./socicon/socicon-webfont.eot');
+    src: url('./socicon/socicon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./socicon/socicon-webfont.woff') format('woff'),
+         url('./socicon/socicon-webfont.ttf') format('truetype'),
+         url('./socicon/socicon-webfont.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
