@@ -20,7 +20,7 @@ body a:hover {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: black;
+	color: black;
 }
 
 
@@ -41,6 +41,10 @@ body a:hover {
 	background-color: #333333;
 	
 }
+
+
+
+/*HEADER section*/
 
 #header {
 	background-color: #76d04b;
@@ -66,6 +70,10 @@ body a:hover {
 	margin-bottom: 0px;
 }
 
+
+
+/*MAIN section*/
+
 #main {
 	//background-color: #B8BDB6;
 	color: #000;
@@ -84,9 +92,12 @@ body a:hover {
 }
 
 #main img {
-    width: 100%;
+	width: 100%;
 }
 
+
+
+/*PROJECTS section*/
 
 #projects {
 	//background-color: #BABDB8;
@@ -96,11 +107,50 @@ body a:hover {
 }
 
 
+#projects img {
+	width: 200px;
+	height: 200px;
+}
+
+
+
+/*BLOG section*/
+
 #blog {
 	padding-top: 100px;
 	padding-bottom: 100px;
 	font-size: 20px;
+	background-color: #f8f8f8;
 }
+
+#blog-posts {
+	padding-top:50px;
+}
+
+#blog ul {
+	list-style-type: none;
+	font-size: 25px;
+}
+
+#blog li {
+	padding-bottom: 15px;
+}
+
+#blog #post-date {
+	font-weight: bold;
+	padding-right: 15px;
+}
+
+#blog #post-title {
+}
+
+#blog-nav p {
+	font-size: 20px;
+	padding-top: 30px;
+}
+
+
+/*CONTACTS section*/
 
 #contacts {
 	background-color: #f1f1f1;
@@ -144,9 +194,57 @@ body a:hover {
 
 
 
+/*FOOTER section*/
+
 footer {
+	color: #f0f0f0;
 	background-color: #333333;
-	padding-bottom: 300px;
+	padding-top:25px;
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+footer .row {
+	margin: auto;
+	width: 100%;
+}
+
+footer #row-top {
+	padding-bottom: 10px;
+}
+
+footer ul {
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 25px;
+}
+
+footer li {
+	padding-bottom: 5px;
 }
 
 
+footer #foot-left {
+}
+
+footer #foot-center {
+	font-size: 30px;
+}
+
+footer #foot-right {
+	font-size: 15px;
+	padding-top: 150px;
+}
+
+
+footer a {
+	color: grey;
+}
+
+footer a:hover {
+	color: #f1f1f1;
+}
+
+footer a:visited {
+	color: grey;
+}
