@@ -1,7 +1,7 @@
 /* move down content*/
 body {
-	font-family: "Karla",arial,sans-serif;
-	font-family: "Josefin Sans",arial,sans-serif;
+	//font-family: "Karla",arial,sans-serif;
+	//font-family: "Josefin Sans",arial,sans-serif;
 	font-family: "Lato";
 
 	border-style: solid;
@@ -11,7 +11,16 @@ body {
 
 body a:hover {
 	text-decoration: none;
+	color: #76d04b;
 }
+body a {
+	color: grey;
+}
+body a:visited {
+	color: grey;
+}
+
+
 
 /*bootstrap overrides*/
 .navbar-default {
@@ -49,8 +58,8 @@ body a:hover {
 #header {
 	background-color: #76d04b;
 	font-family: "Josefin Sans",arial,sans-serif;
-	padding-top: 250px;
-	height: 450px;
+	padding-top: 300px;
+	height: 550px;
 }
 
 #header h1 {
@@ -63,7 +72,7 @@ body a:hover {
 }
 
 #nav {
-	background-color: #76d04b;
+	//background-color: #76d04b;
 	border-style: none;
 	font-size: 20px;
 	font-weight:50;
@@ -83,7 +92,11 @@ body a:hover {
 
 }
 
-#main a:link, a:visited {
+#main a:link {
+	color:#76d04b;
+}
+
+#main a:visited {
 	color:#76d04b;
 }
 #main a:hover {
@@ -113,40 +126,67 @@ body a:hover {
 }
 
 
+#project-container {
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto; 
+	//text-align:center;
+	font-size: 20px;
+	padding-bottom: 25px;
+}
+
+#project-container #cool {
+	background-color: 
+}
+
+#project-container:hover {
+	background-color: rgba(118, 208, 75, 0.47);
+}
+
+
 
 /*BLOG section*/
 
-#blog {
+#blog-section {
 	padding-top: 100px;
 	padding-bottom: 100px;
 	font-size: 20px;
 	background-color: #f8f8f8;
 }
 
-#blog-posts {
+#blog-section-posts {
 	padding-top:50px;
 }
 
-#blog ul {
+#blog-section ul {
 	list-style-type: none;
-	font-size: 25px;
+	font-size: 20px;
 }
 
-#blog li {
+#blog-section li {
 	padding-bottom: 15px;
 }
 
-#blog #post-date {
+#blog-section #post-date {
 	font-weight: bold;
 	padding-right: 15px;
 }
 
-#blog #post-title {
+#blog-section #post-title a:link {
+	color:black;
+}
+#blog-section #post-title a:visited {
+	color:black;
+}
+#blog-section #post-title a:hover {
+	color: #76d04b;
 }
 
-#blog-nav p {
+
+#blog-section #blog-nav p {
 	font-size: 20px;
-	padding-top: 30px;
+	padding-top: 75px;
+	padding-bottom: 20px;
 }
 
 
@@ -172,7 +212,7 @@ body a:hover {
 }
 
 #logo-container #logo:hover {
-	background-color: #76d04b;
+		background-color: rgba(118, 208, 75, 0.47);
 } 
 
 
@@ -192,6 +232,51 @@ body a:hover {
 	margin: 10px;
 }
 
+
+
+
+
+/*BLOG*/
+#blog {
+	padding-top: 20px;
+}
+
+#blog #content {
+	font-size: 25px;
+	padding-bottom: 50px;
+	padding-top: 100px;
+}
+
+#blog-archive {
+	padding-bottom: 200px;
+}
+
+
+#blog ul {
+	list-style-type: none;
+	font-size: 20px;
+}
+
+#blog li {
+	padding-bottom: 15px;
+}
+
+#blog-archive li a {
+	color: black;
+	font-size: 20px;
+}
+
+#blog-archive li a:hover {
+	color: grey;
+}
+
+#blog #post-date {
+	font-weight: bold;
+	padding-right: 15px;
+}
+
+#blog #post-title {
+}
 
 
 /*FOOTER section*/
